@@ -825,13 +825,9 @@ PRODUCT_COPY_FILES += \
 # NFC
 PRODUCT_COPY_FILES += \
     vendor/samsung/sm8250-common/proprietary/etc/nfcee_access.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/nfcee_access.xml \
-    vendor/samsung/sm8250-common/proprietary/etc/nfc_key:$(TARGET_COPY_OUT_SYSTEM)/etc/nfc_key \
-    vendor/samsung/sm8250-common/proprietary/vendor/bin/hw/sec.android.hardware.nfc@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/sec.android.hardware.nfc@1.2-service \
-    vendor/samsung/sm8250-common/proprietary/vendor/etc/init/sec.android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/sec.android.hardware.nfc@1.2-service.rc \
     vendor/samsung/sm8250-common/proprietary/vendor/etc/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf \
     vendor/samsung/sm8250-common/proprietary/vendor/etc/sec_senn82ab_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sec_senn82ab_rfreg.bin \
-    vendor/samsung/sm8250-common/proprietary/vendor/firmware/sec_senn82ab_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sec_senn82ab_firmware.bin \
-    vendor/samsung/sm8250-common/proprietary/vendor/lib64/vendor.samsung.hardware.nfc@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.nfc@2.0.so
+    vendor/samsung/sm8250-common/proprietary/vendor/firmware/sec_senn82ab_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sec_senn82ab_firmware.bin
 
 # NPU
 PRODUCT_COPY_FILES += \

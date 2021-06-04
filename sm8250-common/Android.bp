@@ -88,7 +88,7 @@ cc_prebuilt_library_shared {
 android_app_import {
 	name: "BiometricSetting",
 	owner: "samsung",
-	apk: "proprietary/priv-app/BiometricSetting/BiometricSetting.apk",
+	apk: "proprietary/system/priv-app/BiometricSetting/BiometricSetting.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,

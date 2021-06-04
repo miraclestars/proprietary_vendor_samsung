@@ -432,12 +432,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/sm8250-common/proprietary/system_ext/framework/com.qti.dpmframework.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/com.qti.dpmframework.jar \
     vendor/samsung/sm8250-common/proprietary/system_ext/framework/dpmapi.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/dpmapi.jar \
-    vendor/samsung/sm8250-common/proprietary/framework/tcmclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/tcmclient.jar
+    vendor/samsung/sm8250-common/proprietary/system/framework/tcmclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/tcmclient.jar
 
 # DRM
 PRODUCT_COPY_FILES += \
-    vendor/samsung/sm8250-common/proprietary/lib/vendor.samsung.hardware.security.widevine.keyprov@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.security.widevine.keyprov@1.0.so \
-    vendor/samsung/sm8250-common/proprietary/lib64/vendor.samsung.hardware.security.widevine.keyprov@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.security.widevine.keyprov@1.0.so \
+    vendor/samsung/sm8250-common/proprietary/system/lib/vendor.samsung.hardware.security.widevine.keyprov@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.security.widevine.keyprov@1.0.so \
+    vendor/samsung/sm8250-common/proprietary/system/lib64/vendor.samsung.hardware.security.widevine.keyprov@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.security.widevine.keyprov@1.0.so \
     vendor/samsung/sm8250-common/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine \
     vendor/samsung/sm8250-common/proprietary/vendor/bin/vendor.samsung.hardware.security.widevine.keyprov@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.hardware.security.widevine.keyprov@1.0-service \
     vendor/samsung/sm8250-common/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
@@ -486,7 +486,7 @@ PRODUCT_COPY_FILES += \
 
 # Fingerprint
 PRODUCT_COPY_FILES += \
-    vendor/samsung/sm8250-common/proprietary/etc/permissions/com.sec.feature.fingerprint_manager_service.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sec.feature.fingerprint_manager_service.xml \
+    vendor/samsung/sm8250-common/proprietary/system/etc/permissions/com.sec.feature.fingerprint_manager_service.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sec.feature.fingerprint_manager_service.xml \
     vendor/samsung/sm8250-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.biometrics.face@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.biometrics.face@2.0-service \
     vendor/samsung/sm8250-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.biometrics.fingerprint@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.biometrics.fingerprint@3.0-service \
     vendor/samsung/sm8250-common/proprietary/vendor/etc/init/vendor.samsung.hardware.biometrics.face@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.biometrics.face@2.0-service.rc \
@@ -824,7 +824,7 @@ PRODUCT_COPY_FILES += \
 
 # NFC
 PRODUCT_COPY_FILES += \
-    vendor/samsung/sm8250-common/proprietary/etc/nfcee_access.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/nfcee_access.xml \
+    vendor/samsung/sm8250-common/proprietary/system/etc/nfcee_access.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/nfcee_access.xml \
     vendor/samsung/sm8250-common/proprietary/vendor/etc/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf \
     vendor/samsung/sm8250-common/proprietary/vendor/etc/sec_senn82ab_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sec_senn82ab_rfreg.bin \
     vendor/samsung/sm8250-common/proprietary/vendor/firmware/sec_senn82ab_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sec_senn82ab_firmware.bin
@@ -987,8 +987,8 @@ PRODUCT_COPY_FILES += \
 
 # Radio
 PRODUCT_COPY_FILES += \
-    vendor/samsung/sm8250-common/proprietary/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
-    vendor/samsung/sm8250-common/proprietary/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
+    vendor/samsung/sm8250-common/proprietary/system/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
+    vendor/samsung/sm8250-common/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/samsung/sm8250-common/proprietary/system_ext/framework/embmslibrary.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/embmslibrary.jar \
     vendor/samsung/sm8250-common/proprietary/system_ext/lib/vendor.qti.hardware.data.connection@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.data.connection@1.0.so \
     vendor/samsung/sm8250-common/proprietary/system_ext/lib/vendor.qti.hardware.data.connection@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.data.connection@1.1.so \
@@ -1256,8 +1256,8 @@ PRODUCT_COPY_FILES += \
 
 # Vibrator
 PRODUCT_COPY_FILES += \
-    vendor/samsung/sm8250-common/proprietary/lib/vendor.samsung.hardware.vibrator-V1-cpp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.vibrator-V1-cpp.so \
-    vendor/samsung/sm8250-common/proprietary/lib64/vendor.samsung.hardware.vibrator-V1-cpp.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.vibrator-V1-cpp.so \
+    vendor/samsung/sm8250-common/proprietary/system/lib/vendor.samsung.hardware.vibrator-V1-cpp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.vibrator-V1-cpp.so \
+    vendor/samsung/sm8250-common/proprietary/system/lib64/vendor.samsung.hardware.vibrator-V1-cpp.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.vibrator-V1-cpp.so \
     vendor/samsung/sm8250-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.vibrator@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.vibrator@2.1-service \
     vendor/samsung/sm8250-common/proprietary/vendor/etc/init/vendor.samsung.hardware.vibrator@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.vibrator@2.1-service.rc \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/vendor.samsung.hardware.vibrator@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.vibrator@2.0.so \

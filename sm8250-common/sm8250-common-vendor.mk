@@ -1624,4 +1624,4 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-service-qti \
     android.hardware.neuralnetworks@1.3-service-qti \
     android.hardware.neuralnetworks@1.3-service-qti-hta \
-    manifest_android.hardware.drm@1.3-service.widevine
+    manifest_android.hardware.drm@1.4-service.widevine

@@ -110,8 +110,8 @@ need to be added just before the end of it's major group. -->
         <Minor OpcodeValue="0x35" Node="/proc/sys/kernel/sched_min_granularity_ns" />
         <Minor OpcodeValue="0x36" Node="/proc/sys/kernel/walt_low_latency_task_threshold" />
         <Minor OpcodeValue="0x37" Node="/dev/stune/foreground/schedtune.prefer_idle" />
-        <Minor OpcodeValue="0x38" Node="SPECIAL_NODE - sched_up_down_mig" Supported="no"/>
-        <Minor OpcodeValue="0x39" Node="/dev/stune/top-app/schedtune.colocate" />
+        <Minor OpcodeValue="0x38" Node="/proc/sys/kernel/%s" Supported="no"/>
+        <Minor OpcodeValue="0x39" Node="/dev/stune/top-app/schedtune.colocate" Supported="no" />
         <Minor OpcodeValue="0x3A" Node="/dev/cpuctl/top-app/cpu.uclamp.latency_sensitive" />
         <Minor OpcodeValue="0x3B" Node="/dev/cpuctl/foreground/cpu.uclamp.latency_sensitive" />
     <!-- sched major end -->

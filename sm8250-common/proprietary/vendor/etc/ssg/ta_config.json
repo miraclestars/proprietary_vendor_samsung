@@ -5,15 +5,12 @@ Confidential and Proprietary - Qualcomm Technologies, Inc.
 *********************************************************************/
 {
   "embedded_ta_images": [
-    { "name":"rtice"},
-    { "name":"qwes"},
-    { "name":"tzsc"}
+    { "name":"qwes"}
   ],
   "ta_images": [
     { "path":"/vendor/firmware_mnt/image/qwes.mbn"},
     { "path":"/vendor/firmware/image/qwes.mbn"},
     { "path":"/vendor/firmware_mnt/image/haventkn.mbn"},
-    { "path":"/vendor/firmware/image/haventkn.mbn"},
-    { "path":"/vendor/firmware_mnt/image/tzsc.mbn"}
+    { "path":"/vendor/firmware/image/haventkn.mbn"}
   ]
 }

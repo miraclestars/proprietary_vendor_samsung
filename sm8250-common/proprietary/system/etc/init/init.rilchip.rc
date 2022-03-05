@@ -46,3 +46,35 @@ on property:sys.control.netmgr=started
 
 on property:init.svc.netmgrd=restarting
     setprop sys.control.netmgr restarted
+
+on property:ril.set_pnd_rps=true
+    write /sys/class/net/${ril.pnd_rps_iface}/queues/rx-0/rps_cpus ${ril.pnd_rps_mask}
+
+on property:ril.set_vnd_rps=true
+    write /sys/class/net/rmnet_data0/queues/rx-0/rps_cpus ${ril.vnd_rps_mask}
+    write /sys/class/net/rmnet_data1/queues/rx-0/rps_cpus ${ril.vnd_rps_mask}
+    write /sys/class/net/rmnet_data2/queues/rx-0/rps_cpus ${ril.vnd_rps_mask}
+    write /sys/class/net/rmnet_data3/queues/rx-0/rps_cpus ${ril.vnd_rps_mask}
+    write /sys/class/net/rmnet_data4/queues/rx-0/rps_cpus ${ril.vnd_rps_mask}
+    write /sys/class/net/rmnet_data5/queues/rx-0/rps_cpus ${ril.vnd_rps_mask}
+    write /sys/class/net/rmnet_data6/queues/rx-0/rps_cpus ${ril.vnd_rps_mask}
+    write /sys/class/net/rmnet_data7/queues/rx-0/rps_cpus ${ril.vnd_rps_mask}
+    write /sys/class/net/rmnet_data8/queues/rx-0/rps_cpus ${ril.vnd_rps_mask}
+    write /sys/class/net/rmnet_data9/queues/rx-0/rps_cpus ${ril.vnd_rps_mask}
+    write /sys/class/net/rmnet_data10/queues/rx-0/rps_cpus ${ril.vnd_rps_mask}
+
+on property:ril.set_clat_rps=true
+    write /sys/class/net/v4-rmnet_data0/queues/rx-0/rps_cpus ${ril.clat_rps_mask}
+    write /sys/class/net/v4-rmnet_data1/queues/rx-0/rps_cpus ${ril.clat_rps_mask}
+    write /sys/class/net/v4-rmnet_data2/queues/rx-0/rps_cpus ${ril.clat_rps_mask}
+    write /sys/class/net/v4-rmnet_data3/queues/rx-0/rps_cpus ${ril.clat_rps_mask}
+    write /sys/class/net/v4-rmnet_data4/queues/rx-0/rps_cpus ${ril.clat_rps_mask}
+    write /sys/class/net/v4-rmnet_data5/queues/rx-0/rps_cpus ${ril.clat_rps_mask}
+    write /sys/class/net/v4-rmnet_data6/queues/rx-0/rps_cpus ${ril.clat_rps_mask}
+    write /sys/class/net/v4-rmnet_data7/queues/rx-0/rps_cpus ${ril.clat_rps_mask}
+    write /sys/class/net/v4-rmnet_data8/queues/rx-0/rps_cpus ${ril.clat_rps_mask}
+    write /sys/class/net/v4-rmnet_data9/queues/rx-0/rps_cpus ${ril.clat_rps_mask}
+    write /sys/class/net/v4-rmnet_data10/queues/rx-0/rps_cpus ${ril.clat_rps_mask}
+
+on property:ril.set_llc_pnd_rps=true
+    write /sys/class/net/${ril.llc_pnd_rps_iface}/queues/rx-1/rps_cpus ${ril.llc_pnd_rps_mask}

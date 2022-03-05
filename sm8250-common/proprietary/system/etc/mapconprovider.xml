@@ -14,6 +14,17 @@
             <apn apnName="supl" ratPriority="LTE" />
             <apn apnName="dun" ratPriority="LTE" />
         </operator>
+        <!-- Nepal : Nepal Telecom : NPB -->
+        <operator mnoname="Namaste_NP">
+            <apn apnName="ims" ratPriority="IWLAN:LTE" />
+            <apn apnName="xcap" ratPriority="IWLAN:LTE" />
+            <apn apnName="cbs" ratPriority="LTE" />
+            <apn apnName="emergency" ratPriority="LTE" />
+            <apn apnName="default" ratPriority="LTE" />
+            <apn apnName="hipri" ratPriority="LTE" />
+            <apn apnName="supl" ratPriority="LTE" />
+            <apn apnName="dun" ratPriority="LTE" />
+        </operator>
         <!-- Saudi Arabia : MOBILY : KSA -->
         <operator mnoname="MOBILY_SA">
             <apn apnName="ims" ratPriority="IWLAN:LTE" />
@@ -56,7 +67,7 @@
             <apn apnName="mms" ratPriority="LTE" />
             <apn apnName="xcap" ratPriority="LTE" />
             <apn apnName="cbs" ratPriority="LTE" />
-            <apn apnName="emergency" ratPriority="LTE" />
+            <apn apnName="emergency" ratPriority="LTE:IWLAN" />
             <apn apnName="default" ratPriority="LTE" />
             <apn apnName="hipri" ratPriority="LTE" />
             <apn apnName="supl" ratPriority="LTE" />
@@ -662,6 +673,18 @@
             <apn apnName="supl" ratPriority="LTE" />
             <apn apnName="dun" ratPriority="LTE" />
         </operator>
+        <!-- United Kingdom : Sure : BTU -->
+        <operator mnoname="Sure_GB">
+            <apn apnName="ims" ratPriority="IWLAN:LTE" />
+            <apn apnName="mms" ratPriority="LTE" />
+            <apn apnName="xcap" ratPriority="LTE" />
+            <apn apnName="cbs" ratPriority="LTE" />
+            <apn apnName="emergency" ratPriority="LTE" />
+            <apn apnName="default" ratPriority="LTE" />
+            <apn apnName="hipri" ratPriority="LTE" />
+            <apn apnName="supl" ratPriority="LTE" />
+            <apn apnName="dun" ratPriority="LTE" />
+        </operator>
         <!-- Denmark : TDC : NEE -->
         <operator mnoname="TDC_DK">
             <apn apnName="ims" ratPriority="LTE:IWLAN" />
@@ -866,6 +889,18 @@
             <apn apnName="supl" ratPriority="LTE" />
             <apn apnName="dun" ratPriority="LTE" />
         </operator>
+        <!-- Lithuania : Bite : SEB -->
+        <operator mnoname="Bite_LT">
+            <apn apnName="ims" ratPriority="IWLAN:LTE" />
+            <apn apnName="mms" ratPriority="IWLAN:LTE" />
+            <apn apnName="xcap" ratPriority="IWLAN:LTE" />
+            <apn apnName="cbs" ratPriority="LTE" />
+            <apn apnName="emergency" ratPriority="LTE" />
+            <apn apnName="default" ratPriority="LTE" />
+            <apn apnName="hipri" ratPriority="LTE" />
+            <apn apnName="supl" ratPriority="LTE" />
+            <apn apnName="dun" ratPriority="LTE" />
+        </operator>
         <!-- Russia : MTS : SER -->
         <operator mnoname="MTS_RU">
             <apn apnName="ims" ratPriority="IWLAN" />
@@ -882,7 +917,7 @@
         <operator mnoname="Megafon_RU">
             <apn apnName="ims" ratPriority="IWLAN:LTE" />
             <apn apnName="mms" ratPriority="LTE" />
-            <apn apnName="xcap" ratPriority="LTE" />
+            <apn apnName="xcap" ratPriority="IWLAN:LTE" />
             <apn apnName="cbs" ratPriority="LTE" />
             <apn apnName="emergency" ratPriority="LTE" />
             <apn apnName="default" ratPriority="LTE" />
@@ -1322,6 +1357,18 @@
             <apn apnName="supl" ratPriority="LTE" />
             <apn apnName="dun" ratPriority="LTE" />
         </operator>
+        <!-- United States : AT&T : ATT:DSH -->
+        <operator mnoname="ATT_US:DSH">
+            <apn apnName="ims" ratPriority="LTE:IWLAN" />
+            <apn apnName="mms" ratPriority="LTE" />
+            <apn apnName="xcap" ratPriority="LTE" />
+            <apn apnName="cbs" ratPriority="LTE" />
+            <apn apnName="emergency" ratPriority="LTE:IWLAN" />
+            <apn apnName="default" ratPriority="LTE" />
+            <apn apnName="hipri" ratPriority="LTE" />
+            <apn apnName="supl" ratPriority="LTE" />
+            <apn apnName="dun" ratPriority="LTE" />
+        </operator>
         <!-- United States : AT&T LLA: ATT_US:LLA -->
         <operator mnoname="ATT_US:LLA">
             <apn apnName="ims" ratPriority="LTE:IWLAN" />
@@ -1370,6 +1417,18 @@
             <apn apnName="supl" ratPriority="LTE" />
             <apn apnName="dun" ratPriority="LTE" />
         </operator>
+        <!-- United States : Dish : DSH -->
+        <operator mnoname="TMobile_US:DSH5G">
+            <apn apnName="ims" ratPriority="IWLAN:LTE" />
+            <apn apnName="mms" ratPriority="IWLAN:LTE" />
+            <apn apnName="xcap" ratPriority="IWLAN:LTE" />
+            <apn apnName="cbs" ratPriority="LTE" />
+            <apn apnName="emergency" ratPriority="LTE:IWLAN" />
+            <apn apnName="default" ratPriority="LTE" />
+            <apn apnName="hipri" ratPriority="LTE" />
+            <apn apnName="supl" ratPriority="LTE" />
+            <apn apnName="dun" ratPriority="LTE" />
+        </operator>
         <!-- United States : Sprint : SPR -->
         <operator mnoname="Sprint_US">
             <apn apnName="ims" ratPriority="IWLAN:LTE" />
@@ -1406,11 +1465,35 @@
             <apn apnName="supl" ratPriority="LTE" />
             <apn apnName="dun" ratPriority="LTE" />
         </operator>
+        <!-- United States : Southern Linc US -->
+        <operator mnoname="GenericIR92_US:SouthernLinc">
+            <apn apnName="ims" ratPriority="IWLAN:LTE" />
+            <apn apnName="mms" ratPriority="IWLAN:LTE" />
+            <apn apnName="xcap" ratPriority="IWLAN:LTE" />
+            <apn apnName="cbs" ratPriority="LTE" />
+            <apn apnName="emergency" ratPriority="LTE:IWLAN" />
+            <apn apnName="default" ratPriority="LTE" />
+            <apn apnName="hipri" ratPriority="LTE" />
+            <apn apnName="supl" ratPriority="LTE" />
+            <apn apnName="dun" ratPriority="LTE" />
+        </operator>
         <!-- United States : ACG: Carolina West Wireless -->
         <operator mnoname="GenericIR92_US:CarolinaWest">
             <apn apnName="ims" ratPriority="IWLAN:LTE" />
             <apn apnName="mms" ratPriority="IWLAN:LTE" />
             <apn apnName="xcap" ratPriority="LTE" />
+            <apn apnName="cbs" ratPriority="LTE" />
+            <apn apnName="emergency" ratPriority="LTE:IWLAN" />
+            <apn apnName="default" ratPriority="LTE" />
+            <apn apnName="hipri" ratPriority="LTE" />
+            <apn apnName="supl" ratPriority="LTE" />
+            <apn apnName="dun" ratPriority="LTE" />
+        </operator>
+        <!-- United States : ACG: CSpire -->
+        <operator mnoname="GenericIR92_US:CSpire">
+            <apn apnName="ims" ratPriority="LTE:IWLAN" />
+            <apn apnName="mms" ratPriority="LTE:IWLAN" />
+            <apn apnName="xcap" ratPriority="LTE:IWLAN" />
             <apn apnName="cbs" ratPriority="LTE" />
             <apn apnName="emergency" ratPriority="LTE:IWLAN" />
             <apn apnName="default" ratPriority="LTE" />
@@ -1698,7 +1781,7 @@
         <operator mnoname="Smartone_HK">
             <apn apnName="ims" ratPriority="IWLAN:LTE" />
             <apn apnName="mms" ratPriority="LTE" />
-            <apn apnName="xcap" ratPriority="LTE" />
+            <apn apnName="xcap" ratPriority="IWLAN:LTE" />
             <apn apnName="cbs" ratPriority="LTE" />
             <apn apnName="emergency" ratPriority="LTE" />
             <apn apnName="default" ratPriority="LTE" />
@@ -1850,6 +1933,18 @@
             <apn apnName="supl" ratPriority="LTE" />
             <apn apnName="dun" ratPriority="LTE" />
         </operator>
+        <!-- Malaysia : Maxis : XME -->
+        <operator mnoname="Maxis_MY">
+            <apn apnName="ims" ratPriority="IWLAN:LTE" />
+            <apn apnName="mms" ratPriority="LTE" />
+            <apn apnName="xcap" ratPriority="LTE" />
+            <apn apnName="cbs" ratPriority="LTE" />
+            <apn apnName="emergency" ratPriority="LTE" />
+            <apn apnName="default" ratPriority="LTE" />
+            <apn apnName="hipri" ratPriority="LTE" />
+            <apn apnName="supl" ratPriority="LTE" />
+            <apn apnName="dun" ratPriority="LTE" />
+        </operator>
         <!-- NZ: 2degree : XZC -->
         <operator mnoname="TwoDegree_NZ">
             <apn apnName="ims" ratPriority="IWLAN:LTE" />
@@ -1857,6 +1952,18 @@
             <apn apnName="xcap" ratPriority="IWLAN:LTE" />
             <apn apnName="cbs" ratPriority="LTE" />
             <apn apnName="emergency" ratPriority="LTE" />
+            <apn apnName="default" ratPriority="LTE" />
+            <apn apnName="hipri" ratPriority="LTE" />
+            <apn apnName="supl" ratPriority="LTE" />
+            <apn apnName="dun" ratPriority="LTE" />
+        </operator>
+        <!-- NZ: Vodafone : XZC -->
+        <operator mnoname="Vodafone_NZ">
+            <apn apnName="ims" ratPriority="LTE:IWLAN" />
+            <apn apnName="mms" ratPriority="LTE:IWLAN" />
+            <apn apnName="xcap" ratPriority="LTE:IWLAN" />
+            <apn apnName="cbs" ratPriority="LTE" />
+            <apn apnName="emergency" ratPriority="LTE:IWLAN" />
             <apn apnName="default" ratPriority="LTE" />
             <apn apnName="hipri" ratPriority="LTE" />
             <apn apnName="supl" ratPriority="LTE" />
@@ -1982,11 +2089,23 @@
             <apn apnName="supl" ratPriority="LTE" />
             <apn apnName="dun" ratPriority="LTE" />
         </operator>
+        <!-- Vietnam : Mobifone : XXV -->
+        <operator mnoname="Mobifone_VN">
+            <apn apnName="ims" ratPriority="IWLAN:LTE" />
+            <apn apnName="mms" ratPriority="LTE" />
+            <apn apnName="xcap" ratPriority="IWLAN:LTE" />
+            <apn apnName="cbs" ratPriority="LTE" />
+            <apn apnName="emergency" ratPriority="LTE" />
+            <apn apnName="default" ratPriority="LTE" />
+            <apn apnName="hipri" ratPriority="LTE" />
+            <apn apnName="supl" ratPriority="LTE" />
+            <apn apnName="dun" ratPriority="LTE" />
+        </operator>
         <!-- Thailand : True Move : THL -->
         <operator mnoname="Truemove_TH">
             <apn apnName="ims" ratPriority="LTE:IWLAN" />
             <apn apnName="mms" ratPriority="LTE" />
-            <apn apnName="xcap" ratPriority="LTE" />
+            <apn apnName="xcap" ratPriority="LTE:IWLAN" />
             <apn apnName="cbs" ratPriority="LTE" />
             <apn apnName="emergency" ratPriority="LTE" />
             <apn apnName="default" ratPriority="LTE" />
@@ -2020,6 +2139,18 @@
         </operator>
         <!-- Singapore : StarHub : XSP -->
         <operator mnoname="Starhub_SG">
+            <apn apnName="ims" ratPriority="LTE:IWLAN" />
+            <apn apnName="mms" ratPriority="LTE" />
+            <apn apnName="xcap" ratPriority="LTE" />
+            <apn apnName="cbs" ratPriority="LTE" />
+            <apn apnName="emergency" ratPriority="LTE" />
+            <apn apnName="default" ratPriority="LTE" />
+            <apn apnName="hipri" ratPriority="LTE" />
+            <apn apnName="supl" ratPriority="LTE" />
+            <apn apnName="dun" ratPriority="LTE" />
+        </operator>
+        <!-- Singapore : Giga : XSP -->
+        <operator mnoname="Starhub_SG:MVNO">
             <apn apnName="ims" ratPriority="LTE:IWLAN" />
             <apn apnName="mms" ratPriority="LTE" />
             <apn apnName="xcap" ratPriority="LTE" />
@@ -2628,6 +2759,17 @@
             <apn apnName="supl" ratPriority="LTE" />
             <apn apnName="dun" ratPriority="LTE" />
         </operator>
+        <!-- Ecuador : CNT : ALE -->
+        <operator mnoname="ALE_EC">
+            <apn apnName="ims" ratPriority="IWLAN:LTE" />
+            <apn apnName="xcap" ratPriority="IWLAN:LTE" />
+            <apn apnName="cbs" ratPriority="LTE" />
+            <apn apnName="emergency" ratPriority="IWLAN:LTE" />
+            <apn apnName="default" ratPriority="LTE" />
+            <apn apnName="hipri" ratPriority="LTE" />
+            <apn apnName="supl" ratPriority="LTE" />
+            <apn apnName="dun" ratPriority="LTE" />
+        </operator>
         <!-- Cyprus : epic :  -->
         <operator mnoname="Epic_CY">
             <apn apnName="ims" ratPriority="LTE:IWLAN" />
@@ -2696,6 +2838,42 @@
             <apn apnName="supl" ratPriority="LTE" />
             <apn apnName="dun" ratPriority="LTE" />
         </operator>
+        <!-- Ukraine : Lifecell : SEK -->
+        <operator mnoname="Lifecell_UA">
+            <apn apnName="ims" ratPriority="IWLAN:LTE" />
+            <apn apnName="mms" ratPriority="LTE" />
+            <apn apnName="xcap" ratPriority="LTE" />
+            <apn apnName="cbs" ratPriority="LTE" />
+            <apn apnName="emergency" ratPriority="LTE" />
+            <apn apnName="default" ratPriority="LTE" />
+            <apn apnName="hipri" ratPriority="LTE" />
+            <apn apnName="supl" ratPriority="LTE" />
+            <apn apnName="dun" ratPriority="LTE" />
+        </operator>
+        <!-- Monaco : Monaco Telecom : XEF -->
+        <operator mnoname="Telecom_MC">
+            <apn apnName="ims" ratPriority="IWLAN:LTE" />
+            <apn apnName="mms" ratPriority="IWLAN:LTE" />
+            <apn apnName="xcap" ratPriority="IWLAN:LTE" />
+            <apn apnName="cbs" ratPriority="LTE" />
+            <apn apnName="emergency" ratPriority="LTE" />
+            <apn apnName="default" ratPriority="LTE" />
+            <apn apnName="hipri" ratPriority="LTE" />
+            <apn apnName="supl" ratPriority="LTE" />
+            <apn apnName="dun" ratPriority="LTE" />
+        </operator>
+        <!-- Slovakia : 4ka : ORX -->
+        <operator mnoname="4ka_SK">
+            <apn apnName="ims" ratPriority="IWLAN:LTE" />
+            <apn apnName="mms" ratPriority="LTE" />
+            <apn apnName="xcap" ratPriority="IWLAN:LTE" />
+            <apn apnName="cbs" ratPriority="LTE" />
+            <apn apnName="emergency" ratPriority="LTE" />
+            <apn apnName="default" ratPriority="LTE" />
+            <apn apnName="hipri" ratPriority="LTE" />
+            <apn apnName="supl" ratPriority="LTE" />
+            <apn apnName="dun" ratPriority="LTE" />
+        </operator>
     </mapcon>
     <ifomtable>
         <!-- United States : Verizon : VZW -->
@@ -2745,6 +2923,15 @@
         </operator>
         <!-- United States : AT&T : ATT:TFN -->
         <operator mnoname="ATT_US:TFN">
+            <ipflow ipflowType="apps" ipflowRule="imsvideocall" routingRule="IWLAN:LTE" apnName="ims"/>
+            <ipflow ipflowType="apps" ipflowRule="imsvoicecall" routingRule="LTE:IWLAN" apnName="ims"/>
+            <ipflow ipflowType="apps" ipflowRule="imsvideovoicecall" routingRule="IWLAN:LTE" apnName="ims"/>
+            <ipflow ipflowType="apps" ipflowRule="idle" routingRule="LTE:CS:IWLAN" apnName="ims"/>
+            <ipflow ipflowType="apps" ipflowRule="blockhandoff" routingRule="UNKNOWN" apnName="ims"/>
+            <ipflow ipflowType="apps" ipflowRule="e911call" routingRule="UNKNOWN" apnName="emergency"/>
+        </operator>
+        <!-- United States : AT&T : ATT:DSH -->
+        <operator mnoname="ATT_US:DSH">
             <ipflow ipflowType="apps" ipflowRule="imsvideocall" routingRule="IWLAN:LTE" apnName="ims"/>
             <ipflow ipflowType="apps" ipflowRule="imsvoicecall" routingRule="LTE:IWLAN" apnName="ims"/>
             <ipflow ipflowType="apps" ipflowRule="imsvideovoicecall" routingRule="IWLAN:LTE" apnName="ims"/>

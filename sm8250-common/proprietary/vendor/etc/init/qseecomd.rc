@@ -9,6 +9,3 @@ service vendor.qseecomd /vendor/bin/qseecomd
     class core
     user root
     group root
-
-on property:sys.shutdown.requested=*
-    write /sys/kernel/shutdown_qseecom/shutdown 1

@@ -1,4 +1,4 @@
-# Copyright (c) 2019-2020 Qualcomm Technologies, Inc.
+# Copyright (c) 2019-2021 Qualcomm Technologies, Inc.
 # All Rights Reserved.
 # Confidential and Proprietary - Qualcomm Technologies, Inc.
 #
@@ -18,14 +18,6 @@ on boot
     exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules/5.4-gki rmnet_ctl
     exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules/5.4-gki rmnet_core
 
-on boot
-    #Reduce the pressure on the reassemly cache by discarding orphan fragments quicker
-    write /proc/sys/net/netfilter/nf_conntrack_frag6_timeout 10
-    
-on boot && property:ro.csc.countryiso_code=BR
-    #Reduce the pressure on the reassemly cache by discarding orphan fragments quicker
-    write /proc/sys/net/netfilter/nf_conntrack_frag6_timeout 60
-
 # msm specific files that need to be created on /data
 on post-fs-data
     #Create NETMGR daemon log dir
@@ -42,9 +34,8 @@ on post-fs-data
 on property:persist.vendor.data.mode=disabled
     stop vendor.netmgrd
 
-# Do not use Qcom Netmgrd
-#service vendor.netmgrd /system/vendor/bin/netmgrd
-#    class main
+service vendor.netmgrd /system/vendor/bin/netmgrd
+    class main
 
 on property:ro.vendor.use_data_netmgrd=false
     # netmgr not supported on specific target

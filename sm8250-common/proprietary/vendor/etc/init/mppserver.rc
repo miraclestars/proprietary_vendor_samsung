@@ -1,0 +1,6 @@
+service mppserver /vendor/bin/hw/mppserver
+    class hal
+    user system
+    group system
+    ioprio rt 4
+    writepid /dev/cpuset/foreground/tasks /dev/stune/foreground/tasks

@@ -1,0 +1,4 @@
+service snapserv /vendor/bin/hw/vendor.samsung.hardware.snap@1.2-service
+    class hal
+    user system
+    group system

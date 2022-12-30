@@ -22,5 +22,7 @@ applications that come with the platform
 <permissions>
     <privapp-permissions package="com.sec.epdg">
         <permission name="android.permission.READ_PRECISE_PHONE_STATE"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.PACKET_KEEPALIVE_OFFLOAD"/>
     </privapp-permissions>
 </permissions>

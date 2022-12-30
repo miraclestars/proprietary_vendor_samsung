@@ -151,5 +151,5 @@ on property:gsm.operator.numeric=*
 
 on early-boot
     copy /system/etc/mvno_list.xml /data/vendor/secradio/mvno_list.xml
-    copy ${persist.sys.omc_etcpath}/mvno_list.xml /data/vendor/secradio/mvno_list.xml
+    copy ${mdc.sys.omc_etcpath}/mvno_list.xml /data/vendor/secradio/mvno_list.xml
     chown radio radio /data/vendor/secradio/mvno_list.xml

@@ -32,6 +32,9 @@ service irsc_util_oem /vendor/bin/irsc_util "/vendor/etc/sec_config_oem"
 service vendor.ril-daemon /vendor/bin/hw/rild-dummy
     override
 
+service vendor.ril-daemon1 /vendor/bin/hw/rild-dummy
+    override
+
 service vendor.ril-daemon2 /vendor/bin/hw/rild-dummy
     override
 

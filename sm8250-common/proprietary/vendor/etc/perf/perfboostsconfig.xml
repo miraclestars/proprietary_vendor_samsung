@@ -295,5 +295,43 @@
                 Id="0x00001040" Enable="true" Timeout="0" Target="kona"
                 Resources="0x40000000, 0x0" />
 
+    <!--FPS Update from Framework-->
+        <!-- SCHED_WINDOW_TICKS_UPDATE resource opcode, value -->
+        <!-- Below additional resources for 120fps, 144fps-->
+        <!-- SCHED_PREFER_SPREAD resource opcode, value -->
+        <!-- Type indicates FPS -->
+        <!-- 30fps -->
+        <Config
+            Id="0x00001094" Type="30" Enable="true" Target="kona" Timeout="0"
+            Resources="0x40CA4000, 8" />
+        <!-- 45fps -->
+        <Config
+            Id="0x00001094" Type="45" Enable="true" Target="kona" Timeout="0"
+            Resources="0x40CA4000, 5" />
+        <!-- 60fps -->
+        <Config
+            Id="0x00001094" Type="60" Enable="true" Target="kona" Timeout="0"
+            Resources="0x40CA4000, 4" />
+        <!-- 90fps -->
+        <Config
+            Id="0x00001094" Type="90" Enable="true" Target="kona" Timeout="0"
+            Resources="0x40CA4000, 3" />
+        <!-- 120fps -->
+        <Config
+            Id="0x00001094" Type="120" Enable="true" Target="kona" Timeout="0"
+            Resources="0x40CA4000, 2, 0x40CA8000, 1" />
+        <!-- 144fps -->
+        <Config
+            Id="0x00001094" Type="144" Enable="true" Target="kona" Timeout="0"
+            Resources="0x40CA4000, 2, 0x40CA8000, 1" />
+        <!-- 180fps -->
+        <Config
+            Id="0x00001094" Type="180" Enable="true" Target="kona" Timeout="0"
+            Resources="0x40CA4000, 2" />
+        <!-- 240fps -->
+        <Config
+            Id="0x00001094" Type="240" Enable="true" Target="kona" Timeout="0"
+            Resources="0x40CA4000, 2" />
+
     </PerfBoost>
 </BoostConfigs>

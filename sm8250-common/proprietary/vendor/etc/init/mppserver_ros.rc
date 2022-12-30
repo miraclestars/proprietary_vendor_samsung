@@ -1,0 +1,12 @@
+# Create Directories for MPP (Media Post Processing)
+on post-fs-data
+mkdir /data/vendor/mpp 0700 system system
+mkdir /data/vendor/mpp/fruc_files 0700 system system
+mkdir /data/vendor/mpp/fruc_assets 0700 system system
+
+service mppserver /vendor/bin/hw/mppserver
+    class hal
+    user system
+    group system
+    ioprio rt 4
+    writepid /dev/cpuset/foreground/tasks /dev/stune/foreground/tasks

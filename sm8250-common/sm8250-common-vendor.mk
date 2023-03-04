@@ -135,29 +135,45 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
+    vendor/samsung/sm8250-common/proprietary/vendor/lib/hw/audio.a2dpsink.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.a2dpsink.default.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth_qti.default.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so \
+    vendor/samsung/sm8250-common/proprietary/vendor/lib/hw/vendor.samsung.hardware.bluetooth.a2dpsink@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.bluetooth.a2dpsink@1.0-impl.so \
+    vendor/samsung/sm8250-common/proprietary/vendor/lib/hw/vendor.samsung.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.bluetooth.audio@2.1-impl.so \
+    vendor/samsung/sm8250-common/proprietary/vendor/lib/libbluetooth_a2dpsink_session.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_a2dpsink_session.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_qti.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/libbthost_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbthost_if.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbtnv.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
+    vendor/samsung/sm8250-common/proprietary/vendor/lib/libsehbluetooth_audio_session.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsehbluetooth_audio_session.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/libsoc_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsoc_helper.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.0.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.bluetooth_sar@1.1.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/vendor.samsung.hardware.bluetooth.a2dp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.bluetooth.a2dp@1.0.so \
+    vendor/samsung/sm8250-common/proprietary/vendor/lib/vendor.samsung.hardware.bluetooth.a2dpsink@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.bluetooth.a2dpsink@1.0.so \
+    vendor/samsung/sm8250-common/proprietary/vendor/lib/vendor.samsung.hardware.bluetooth.audio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.bluetooth.audio@2.0.so \
+    vendor/samsung/sm8250-common/proprietary/vendor/lib/vendor.samsung.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.bluetooth.audio@2.1.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so \
+    vendor/samsung/sm8250-common/proprietary/vendor/lib64/hw/audio.a2dpsink.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.a2dpsink.default.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.bluetooth_qti.default.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.bluetooth.a2dp@1.0-impl.so \
+    vendor/samsung/sm8250-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.bluetooth.a2dpsink@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.bluetooth.a2dpsink@1.0-impl.so \
+    vendor/samsung/sm8250-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.bluetooth.audio@2.1-impl.so \
+    vendor/samsung/sm8250-common/proprietary/vendor/lib64/libbluetooth_a2dpsink_session.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_a2dpsink_session.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_qti.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-vendor.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libbthost_if.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbthost_if.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidl.so \
+    vendor/samsung/sm8250-common/proprietary/vendor/lib64/libsehbluetooth_audio_session.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsehbluetooth_audio_session.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libsoc_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoc_helper.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/vendor.samsung.hardware.bluetooth.a2dp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.bluetooth.a2dp@1.0.so \
+    vendor/samsung/sm8250-common/proprietary/vendor/lib64/vendor.samsung.hardware.bluetooth.a2dpsink@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.bluetooth.a2dpsink@1.0.so \
+    vendor/samsung/sm8250-common/proprietary/vendor/lib64/vendor.samsung.hardware.bluetooth.audio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.bluetooth.audio@2.0.so \
+    vendor/samsung/sm8250-common/proprietary/vendor/lib64/vendor.samsung.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.bluetooth.audio@2.1.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/vendor.samsung.hardware.bluetooth@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.bluetooth@2.0.so
 
 # Bluetooth (aptX)
@@ -242,6 +258,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/libBeauty_v4.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libBeauty_v4.camera.samsung.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/libbeautyshot.arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbeautyshot.arcsoft.so \
+    vendor/samsung/sm8250-common/proprietary/vendor/lib/libBlurDetectionDeepLearning.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libBlurDetectionDeepLearning.camera.samsung.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_nn_stub.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/libcamxfdalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdalgo.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdengine.so \
@@ -262,6 +279,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/libhand_interaction.uniplugin@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhand_interaction.uniplugin@1.0.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/libhandgesture.arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhandgesture.arcsoft.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/libHandGesture.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHandGesture.camera.samsung.so \
+    vendor/samsung/sm8250-common/proprietary/vendor/lib/libHDRVerifier_v1.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHDRVerifier_v1.camera.samsung.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/libhigh_dynamic_range_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhigh_dynamic_range_bokeh.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/libHpr_RecGAE_cvFeature_v1.0.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHpr_RecGAE_cvFeature_v1.0.camera.samsung.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/libHprFace_GAE_api.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHprFace_GAE_api.camera.samsung.so \
@@ -306,6 +324,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/libsrib_humanaware_engine.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsrib_humanaware_engine.camera.samsung.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/libswldc_capture_core.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswldc_capture_core.camera.samsung.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswregistrationalgo.so \
+    vendor/samsung/sm8250-common/proprietary/vendor/lib/libtensorflowLite.singletake.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtensorflowLite.singletake.camera.samsung.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/libuniplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuniplugin.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/libvdis_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvdis_core.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/libvideobeauty.arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideobeauty.arcsoft.so \
@@ -396,6 +415,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libBeauty_v4.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBeauty_v4.camera.samsung.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libbeautyshot.arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbeautyshot.arcsoft.so \
+    vendor/samsung/sm8250-common/proprietary/vendor/lib64/libBlurDetectionDeepLearning.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBlurDetectionDeepLearning.camera.samsung.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_nn_stub.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libcamxfdalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgo.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdengine.so \
@@ -417,6 +437,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libhand_interaction.uniplugin@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhand_interaction.uniplugin@1.0.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libhandgesture.arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhandgesture.arcsoft.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libHandGesture.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libHandGesture.camera.samsung.so \
+    vendor/samsung/sm8250-common/proprietary/vendor/lib64/libHDRVerifier_v1.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libHDRVerifier_v1.camera.samsung.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libhigh_dynamic_range_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhigh_dynamic_range_bokeh.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libHpr_RecGAE_cvFeature_v1.0.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libHpr_RecGAE_cvFeature_v1.0.camera.samsung.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libHprFace_GAE_api.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libHprFace_GAE_api.camera.samsung.so \
@@ -461,6 +482,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libsrib_humanaware_engine.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsrib_humanaware_engine.camera.samsung.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libswldc_capture_core.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswldc_capture_core.camera.samsung.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswregistrationalgo.so \
+    vendor/samsung/sm8250-common/proprietary/vendor/lib64/libtensorflowLite.singletake.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtensorflowLite.singletake.camera.samsung.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libuniplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuniplugin.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libvdis_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvdis_core.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libvideobeauty.arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideobeauty.arcsoft.so \
@@ -1169,8 +1191,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8250-common/proprietary/vendor/etc/init/init_thermal-engine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_thermal-engine.rc \
     vendor/samsung/sm8250-common/proprietary/vendor/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc \
     vendor/samsung/sm8250-common/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
-    vendor/samsung/sm8250-common/proprietary/vendor/lib/libhypervintf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhypervintf.so \
-    vendor/samsung/sm8250-common/proprietary/vendor/lib/vendor.samsung.hardware.hyper-V2-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.hyper-V2-ndk_platform.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib/vendor.samsung.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.thermal@1.0.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libhypervintf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhypervintf.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so \
@@ -1264,8 +1284,8 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-service-qti \
     android.hardware.health@2.1-samsung \
     com.android.hotwordenrollment.common.util \
-    HotwordEnrollmentOKGoogleEx3HEXAGON \
-    HotwordEnrollmentXGoogleEx3HEXAGON \
+    HotwordEnrollmentOKGoogleEx2HEXAGON \
+    HotwordEnrollmentXGoogleEx2HEXAGON \
     libskeymaster4device \
     android.hardware.neuralnetworks@1.3-service-qti \
     android.hardware.neuralnetworks@1.3-service-qti-hta \

@@ -276,10 +276,7 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="28401" mtu="1330" rat="4"/>
 
 <!-- TURKCELL -->
-    <mtuTableEntry numeric="28601" mtu="1300" profile="2"/>
-
-<!-- Vodafone Turkey -->
-    <mtuTableEntry numeric="28602" mtu="1280" rat="4"/>
+    <mtuTableEntry numeric="28601" mtu="1300" profile="2"/>    
 
 <!-- AVEA -->
     <mtuTableEntry numeric="28603" mtu="1300" profile="2"/>
@@ -440,6 +437,9 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="42602" mtu="1480" profile="2"/>    
     <mtuTableEntry numeric="42602" mtu="1480" profile="14"/>
 
+<!-- Vodafone QATAR -->
+    <mtuTableEntry numeric="42702" mtu="1390" rat="4"/>
+
 <!--  JPN SBM -->
     <mtuTableEntry numeric="44020" mtu="1422"/>
 
@@ -535,9 +535,6 @@ mtuTableEntry attributes:
 <!--  Optus YES -->
     <mtuTableEntry numeric="50502" mtu="1280" profile="2"/>
     <mtuTableEntry numeric="50502" mtu="1280" rat="4"/>
-
-<!-- MOI QATAR -->
-    <mtuTableEntry numeric="42706" mtu="1280" rat="4"/>
 
 <!--  Vodafone VAU -->
     <mtuTableEntry numeric="50503" mtu="1280" profile="2"/>
@@ -678,4 +675,8 @@ mtuTableEntry attributes:
 <!-- ZAIN MI -->
     <mtuTableEntry numeric="41902" mtu="1410" profile="2"/>
     <mtuTableEntry numeric="41902" mtu="1410" rat="4"/>
+
+<!-- SPARK NZ -->
+    <mtuTableEntry numeric="53005" mtu="1280" profile="14" rat="4"/>
+    <mtuTableEntry numeric="53099" mtu="1280" profile="14" rat="4"/>
 </mtuTableEntry>

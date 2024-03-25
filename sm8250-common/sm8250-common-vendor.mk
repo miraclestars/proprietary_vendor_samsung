@@ -1034,6 +1034,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_encdec.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libqmi_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_legacy.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiservices.so \
+    vendor/samsung/sm8250-common/proprietary/vendor/lib64/libqmiservices-ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiservices-ext.so \
+    vendor/samsung/sm8250-common/proprietary/vendor/lib64/libqmiservices-sem-ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiservices-sem-ext.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libqsocket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqsocket.so
 
 # QTI
@@ -1089,6 +1091,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libril_sem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril_sem.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec-ril.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libsecril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecril-client.so \
+    vendor/samsung/sm8250-common/proprietary/vendor/lib64/libSemDataProps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSemDataProps.so \
+    vendor/samsung/sm8250-common/proprietary/vendor/lib64/libSemTelephonyProps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSemTelephonyProps.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsystem_health_mon.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libvkmanager_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvkmanager_vendor.so \
     vendor/samsung/sm8250-common/proprietary/vendor/lib64/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml.so \
